@@ -1,0 +1,41 @@
+{
+    "symbol": "ETHUSDT",
+    "short_ema_periods": [
+        9,
+        12,
+        15,
+        20
+    ],
+    "long_ema_periods": [
+        21,
+        26,
+        30,
+        50,
+        100
+    ],
+    "adx_periods": [
+        10,
+        14,
+        20
+    ],
+    "adx_thresholds": [
+        20,
+        25,
+        30,
+        50
+    ],
+    "chop_periods": [
+        14,
+        20,
+        28
+    ],
+    "chop_thresholds": [
+        38,
+        50,
+        62
+    ],
+    "use_ema": true,
+    "use_adx": false,
+    "use_chop": false,
+    "nowtime": "2024-10-04T14_46_25"
+}
