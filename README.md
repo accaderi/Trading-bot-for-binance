@@ -1,6 +1,18 @@
+<h1 align="center"><strong>Cryptocurrency Trading Bot</strong></h1>
 
-# Cryptocurrency Trading Bot
-![Trading Bot UI](pic/trading_bot_ui.jpg)
+<p align="center">
+  <img src="pic/trading_bot_ui.jpg" alt="Trading Bot UI">
+</p>
+
+<p align="center">
+  <a href="https://youtu.be/Ew9yWHxiJJs">
+    <img src="https://img.youtube.com/vi/Ew9yWHxiJJs/0.jpg" alt="Youtube Video">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://youtu.be/Ew9yWHxiJJs">Cryptocurrency Trading Bot</a>
+</p>
 
 This project focuses on using a trading bot for the cryptocurrency market, connected through a Binance account and API. The bot automatically trades Bitcoin and Ethereum based on configured indicators (EMA, ADX, Choppiness Index) and displays key data like trades and charts in the UI.
 
