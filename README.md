@@ -42,7 +42,7 @@ The app displays important messages such as initialization, trade execution, and
 
 The app saves data at several points during its operation:
 
-1. **Orders**: Saved in the "data" subfolder as a CSV file with the format: `orders_crypto/currency_candlestick_length_date_time.csv`.
+1. **Orders**: Saved in the "data" subfolder as a CSV file with the format: `data/currency_candlestick_length_date_time.csv`.
 2. **Historical Data**: When fetching historical data for initialization, it's temporarily stored in memory.
 3. **Backtest Results**: The backtest.py script saves results of parameter testing in both CSV and pickle formats.
 
