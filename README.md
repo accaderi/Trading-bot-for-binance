@@ -120,7 +120,7 @@ Note: For production deployment, additional steps such as setting up a productio
 
 ## Configuration
 
-Before running the bot, make sure to create .env file in the project main folder and add the following to it:
+Before running the bot, make sure to create .env file in the main project folder and add the following to it:
 ```bash
 api_key = 'Your Binance API key'
 api_secret = 'Your Binance secret key'
