@@ -34,7 +34,8 @@ The EMA Crossover Bot uses the following steps to operate:
 2. **Candlestick Time Period**: Select the desired time period for candlesticks (e.g., 1m, 5m, 1h).
 3. **Set EMA Lengths**: Configure the lengths for slow and fast EMAs.
 4. **Set ADX and Choppiness Parameters**: Configure the periods and thresholds for ADX and Choppiness Index.
-5. **Start Trading**: Upon clicking the "Start Trading" button, the bot begins trading using real-time data.
+5. **Set Initial Trading Percentage**: Set the initial trading amount for the trading bot.
+6. **Start Trading**: Upon clicking the "Start Trading" button, the bot begins trading using real-time data.
 
 The app displays important messages such as initialization, trade execution, and any errors in an **Output Console**. Additionally, the **Candlestick Plot** visualizes the real-time data, and the **Last 10 Trades** table shows details of recent trades including profit or loss.
 
