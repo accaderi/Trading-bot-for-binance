@@ -116,17 +116,16 @@ Note: in the data folder, there are some historical data files and backtest resu
 
 9. Open a web browser and navigate to `http://127.0.0.1:8000` to access the application.
 
-Note: For production deployment, additional steps such as setting up a production-ready web server (e.g., Gunicorn) and configuring environment variables for sensitive information (like API keys) are recommended.
+Note: For production deployment, additional steps such as setting up a production-ready web server (e.g., Uvicorn) and configuring environment variables for sensitive information (like API keys) are recommended.
 
 ## Configuration
 
-Before running the bot, make sure to configure the following:
-
-- **api_key**: Your Binance API key.
-- **api_secret**: Your Binance secret key.
-
-These configurations can be set in the `.env` file.  
-Note: testnet=True parameter should be added to the Client initialization if testing on testnet.
+Before running the bot, make sure to create .env file in the project main folder and add the following to it:
+```bash
+api_key = 'Your Binance API key'
+api_secret = 'Your Binance secret key'
+```
+**Note:** Add the `testnet=True` parameter to the Client initialization in the `trading_bot/trading_bot.py` file when testing on the binance testnet API.
 
 ## Output
 
