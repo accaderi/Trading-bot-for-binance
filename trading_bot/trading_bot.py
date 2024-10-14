@@ -49,7 +49,7 @@ class TradingBot(Thread):
         self.money_to_keep = None
         self.last_buy_quantity = None
         self.last_trade_side = None  # New variable to track the last trade side
-        self.client = Client(api_key, api_secret, testnet=True) # testnet=True to be added if testing on testnet
+        self.client = Client(api_key, api_secret) # testnet=True to be added if testing on testnet
         self.base_asset, self.quote_asset = self.get_assets_from_symbol(symbol)
         self.df = pd.DataFrame(columns=['timestamp', 'open', 'high', 'low', 'close', 'volume'])
         self.df_orders = pd.DataFrame(columns=[
